@@ -1,0 +1,26 @@
+{
+  "name": "Wajid Ali Khan - Full Stack Developer",
+  "short_name": "Wajid Dev",
+  "description": "Full Stack Developer specializing in React.js, Next.js, Node.js, and modern web technologies. Building scalable web applications and SaaS products.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#f97316",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["portfolio", "development", "technology"],
+  "lang": "en-US"
+}
