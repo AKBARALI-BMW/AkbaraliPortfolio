@@ -35,32 +35,32 @@ const projects: Project[] = [
     highlight: ' Builder',
     description: 'An AI-powered CV builder that generates professional, ready-to-use CVs in seconds. Simply enter your information, choose a template, and let the AI build a polished, job-ready CV — no design skills needed React.js · Node.js Express.js MongoDB AI Integration  Smart Templates Instant CV Export AI Powered View Project',
     tech: ['Tailwind CSS','React.js', 'Express.js', 'MongoDB'],
-    images: ['/ecturbohome.png', '/ecturboshipments.png', '/ecturbouser.png'],
+    images: ['/CVbuilderpage.png', '/CVdashobard.png', '/CVuserdashboard.png'],
     stats: [{ label: 'Multiple Designs', value: 'Templates' }, { label: ' Smart Suggestions', value: ' AI Power' }],
     website: "https://ecturbo.com/",
     hasSourceCode: false
   },
   {
     id: 3,
-    label: 'SOCIAL MEDIA APP',
-    title: 'Smart',
-    highlight: ' Social Media App',
-    description: 'A modern React-based social media platform where users can share images, like and comment on posts, follow others, and manage their personal profile — a smooth and interactive social experience built for real users React.js  Node.js Express.js MongoDB Image Sharing Likes & Comments Profile Management View Project.',
+    label: 'ONLINE QUIZ PLATFORM',
+    title: 'Online ',
+    highlight: ' Quiz App',
+    description: 'A fully interactive online quiz platform where students can register, log in, and attempt quizzes at any time. Each quiz runs with a live countdown timer to keep students focused, and a detailed result summary is displayed immediately after submission. React.js · Node.js · Express.js · MongoDB Student Login  Live Timer Instant Results View Project',
     tech: ['Tailwind CSS ','React.js','Express js', 'Node.js', 'MonogDB', ],
-    images: ['/tradxsellhome.jpeg', '/tradxlogin.jpeg', '/tradxproducts.jpeg'],
-    stats: [{ label: 'Image Sharing', value: 'Social' }, { label: 'Likes & Comments', value: 'Interactive' }],
+    images: ['/quizloginpage.png', '/quizquestion.png', '/result.png'],
+    stats: [{ label: 'Quiz Creation', value: 'Interactive' }, { label: 'Performance Tracking', value: 'Analytics' }],
     // website: 'http://tradxsell.com/',
     hasSourceCode: false
   },
   {
     id: 4,
-    label: 'Student Certificate Generator',
-    title: 'Ed',
-    highlight: 'Tech',
-    description: 'A smart web platform that allows schools, colleges, and academies to automatically generate professional certificates for their students. Enter student details, select a certificate design, and download a print-ready certificate instantly React.js · Node.js · Express.js MongoDB  Auto Certificate For Institutions Instant PDF Download View Project.',
+    label: 'Clark Construction Website',
+    title: 'CLIENT ',
+    highlight: 'PROJECT ',
+    description: 'A professional business website built for a construction company client. Designed to showcase their services, past projects, and company profile — giving the client a strong online presence that attracts new customers and builds trust with visitors. Client work live website  fully responsive visit website',
     tech: ['React', 'Node.js', 'MongoDB', 'Express js', 'MYSQL Database'],
-    images: ['/xephrahome.jpeg', '/xephralogin.png', '/xephradashboard.png'],
-    stats: [{ label: 'For Institutions', value: 'EdTech' }, { label: ' Instant PDF Export', value: 'Automated' }],
+    images: ['/Constructionlandinpage.png', '/Constructionside.png', '/ConstructionTeam.png'],
+    stats: [{ label: 'Client Project', value: 'Live' }, { label: ' Fully Responsive', value: 'Web' }],
     hasSourceCode: false
   }
 ]
@@ -158,7 +158,7 @@ export default function Projects() {
                     Visit Website
                   </a>
                 ) : (
-                  <a href="#contact" className="btn-primary">Request Demo</a>
+                  <a href="https://www.clarkconstruction.com/" target='blank' className="btn-primary">Visit website</a>
                 )}
                 {project.hasSourceCode && (
                   <a href="#" className="btn-secondary">Source Code</a>
