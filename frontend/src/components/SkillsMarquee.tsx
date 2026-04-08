@@ -23,7 +23,7 @@ export default function SkillsMarquee({ isLoaded = false }: SkillsMarqueeProps) 
         Full Stack 
           <span className="highlight"> Engineering Skills</span>
         </h2>
-        <p className="marquee-subtitle">Modern tools, frameworks, and real-world development experience.</p>
+        <p className="marquee-subtitle">Modern tools, frameworks, and real-world development experience — from frontend to backend and beyond.  </p>
       </div>
       
       {/* Marquee Rows */}
@@ -77,8 +77,8 @@ export default function SkillsMarquee({ isLoaded = false }: SkillsMarqueeProps) 
       {/* Center Person Image */}
       <div className="marquee-person">
         <img 
-          src="/wajidsecond2.png" 
-          alt="Wajid Ali Khan - Expert in React, Next.js, Node.js, MongoDB, MySQL, and modern web technologies" 
+          src="/AkbaraliProfile2.png" 
+          alt="Akbar Ali - Expert in React, Node.js, MongoDB, MySQL, and modern web technologies" 
           className="marquee-person-img"
           loading="lazy"
         />

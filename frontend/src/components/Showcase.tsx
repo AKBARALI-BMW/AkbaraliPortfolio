@@ -6,9 +6,9 @@ export default function Showcase() {
       {/* Background Text Rows */}
       <div className="bg-text-container">
         <div className="bg-text-row row-1">
-          <span>WAJID ALI KHAN</span>
-          <span>WAJID ALI KHAN</span>
-          <span>WAJID ALI KHAN</span>
+          <span>AKBAR ALI TECH</span>
+          <span>AKBAR ALI TECH</span>
+          <span>AKBAR ALI TECH</span>
         </div>
         <div className="bg-text-row row-2">
           <span>FULL STACK DEVELOPER</span>
@@ -16,9 +16,9 @@ export default function Showcase() {
           <span>FULL STACK DEVELOPER</span>
         </div>
         <div className="bg-text-row row-3">
-          <span>WAJID ALI KHAN</span>
-          <span>WAJID ALI KHAN</span>
-          <span>WAJID ALI KHAN</span>
+          <span>AKBAR ALI</span>
+          <span>AKBAR ALI</span>
+          <span>AKBAR ALI</span>
         </div>
         <div className="bg-text-row row-4">
           <span>FULL STACK DEVELOPER</span>
@@ -26,9 +26,9 @@ export default function Showcase() {
           <span>FULL STACK DEVELOPER</span>
         </div>
         <div className="bg-text-row row-5">
-          <span>WAJID ALI KHAN</span>
-          <span>WAJID ALI KHAN</span>
-          <span>WAJID ALI KHAN</span>
+          <span>AKBAR ALI TECH</span>
+          <span>AKBAR ALI TECH</span>
+          <span>AKBAR ALI TECH</span>
         </div>
         <div className="bg-text-row row-6">
           <span>FULL STACK DEVELOPER</span>
@@ -59,12 +59,12 @@ export default function Showcase() {
                     <pre className="code-text">
                       <code>
                         <span className="line"><span className="keyword">const</span> <span className="variable">developer</span> = &#123;</span>
-                        <span className="line">  <span className="property">name</span>: <span className="string">&quot;Wajid Ali Khan&quot;</span>,</span>
+                        <span className="line">  <span className="property">name</span>: <span className="string">&quot;Akbar Ali &quot;</span>,</span>
                         <span className="line">  <span className="property">role</span>: <span className="string">&quot;Full Stack Developer&quot;</span>,</span>
                         <span className="line">  <span className="property">skills</span>: [</span>
-                        <span className="line">    <span className="string">&quot;React&quot;</span>, <span className="string">&quot;Next.js&quot;</span>, <span className="string">&quot;Node.js&quot;</span>,</span>
+                        <span className="line">    <span className="string">&quot;Tailwind &quot;</span>, <span className="string">&quot; React &quot;</span>, <span className="string">&quot;Node.js&quot;</span>,</span>
                         <span className="line">    <span className="string">&quot;Express&quot;</span>, <span className="string">&quot;MongoDB&quot;</span>, <span className="string">&quot;MySQL&quot;</span>,</span>
-                        <span className="line">    <span className="string">&quot;Firebase&quot;</span>, <span className="string">&quot;Supabase&quot;</span></span>
+                        <span className="line">    <span className="string">&quot;Firebase&quot;</span>, <span className="string">&quot;Wordpress&quot;</span></span>
                         <span className="line">  ],</span>
                         <span className="line">  <span className="function">build</span>: () =&gt; <span className="string">&quot;Amazing Apps&quot;</span></span>
                         <span className="line">&#125;</span>

@@ -83,7 +83,7 @@ export default function Contact() {
             Let's <span className="highlight">Connect</span>
           </h2>
           <p className="contact-subtitle">
-            Have a project in mind? Let's discuss how we can work together.
+          Have a project in mind or want to discuss an opportunity? I'd love to hear from you.
           </p>
         </div>
 
@@ -185,7 +185,7 @@ export default function Contact() {
               </div>
               <div className="info-content">
                 <span className="info-label">Email</span>
-                <a href="mailto:mrwajidalikhan42111@gmail.com" className="info-value">mrwajidalikhan42111@gmail.com</a>
+                <a href="mailto:akbaraliuetm136@gmail.com" className="info-value">akbaraliuetm136@gmail.com</a>
               </div>
             </div>
 
@@ -210,7 +210,7 @@ export default function Contact() {
               </div>
               <div className="info-content">
                 <span className="info-label">Phone</span>
-                <a href="tel:+923481970849" className="info-value phone-number">+92-348-1970849</a>
+                <a href="tel:+923476092385" className="info-value phone-number">+92-347-6092385</a>
               </div>
             </div>
 

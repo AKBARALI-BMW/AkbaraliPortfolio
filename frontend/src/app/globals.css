@@ -143,16 +143,7 @@ html {
 
 body {
   font-family: 'Syne', sans-serif;
-  background: linear-gradient(
-    135deg,
-    #ff9a56 0%,
-    #ffad60 15%,
-    #ffb347 30%,
-    #ffc285 50%,
-    #ffb347 70%,
-    #ff9a56 85%,
-    #ff8534 100%
-  );
+background: linear-gradient(#f4511e, #f3ca5b);
   background-size: 400% 400%;
   background-attachment: fixed;
   color: var(--text-dark);
@@ -175,11 +166,8 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: 
-    radial-gradient(ellipse 80% 60% at 20% 20%, rgba(255, 255, 255, 0.3) 0%, transparent 50%),
-    radial-gradient(ellipse 60% 50% at 80% 80%, rgba(255, 120, 50, 0.2) 0%, transparent 50%),
-    radial-gradient(ellipse 50% 40% at 50% 50%, rgba(255, 200, 150, 0.15) 0%, transparent 60%);
-  pointer-events: none;
+ background: linear-gradient(from 130deg, #f4511e, #dfb548);
+ pointer-events: none;
   z-index: 0;
 }
 
@@ -300,15 +288,14 @@ body::before {
   font-weight: 800;
   letter-spacing: 0.1em;
   white-space: nowrap;
-  background: linear-gradient(
-    180deg,
-    var(--darker) 0%,
-    var(--darker) 20%,
-    rgba(15, 15, 15, 0.7) 40%,
-    rgba(15, 15, 15, 0.4) 60%,
-    rgba(15, 15, 15, 0.15) 80%,
-    transparent 100%
-  );
+background: linear-gradient(
+  90deg,
+  #ca4638 0%,
+  #e6b650 30%,
+  rgba(15, 15, 15, 0.7) 60%,
+  rgba(15, 15, 15, 0.3) 80%,
+  transparent 100%
+);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -455,7 +442,7 @@ body::before {
 .hero-text-right {
   position: absolute;
   right: 4rem;
-  bottom: 8rem;
+  bottom: 10rem;
   max-width: 300px;
   text-align: right;
   z-index: 10;

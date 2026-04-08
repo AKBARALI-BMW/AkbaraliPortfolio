@@ -18,49 +18,49 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    label: 'AI-POWERED PLATFORM',
-    title: 'Funnel',
-    highlight: 'Studio',
-    description: 'An AI-powered platform that allows users to clone any website and fully customize it using a built-in visual editor. Rewrite entire website content using AI, publish to custom domains with one click, and generate ad creatives directly from cloned pages with automatic Meta Ads posting.',
-    tech: ['React.js', "Express.js", 'MongoDB', 'OpenAI / Gemini API', "Stripe"],
-    images: ['/funnelstudio.ai_.png', '/funnelstudioeditor.png', '/funnelstudiodashboard.png'],
-    stats: [{ label: 'Websites Cloned', value: '5K+' }, { label: 'Ads Generated', value: '10K+' }],
+    label: 'MANAGEMENT SYSTEM PLATFORM',
+    title: 'Shop ',
+    highlight: 'Management System',
+    description: 'A complete construction material shop management system that handles buying, selling, and customer tracking in one place. Manage your inventory, record daily sales, monitor customer purchases, and keep full control of your business operations with ease React.js · Node.js Express.js MongoDB Inventory Managed · Customer Records · Sales Tracking View Project ',
+    tech: [ 'Tailwind CSS','React.js', "Express.js", 'MongoDB', "Multer Cloud"],
+    images: ['/Shopdashboard.png', '/Shopcustomer.png', '/Shopslip.png'],
+    stats: [{ label: 'Active Project', value: 'Current' }, { label: 'Frontend + Backend', value: 'Full Stack' }],
     website: 'https://funnelstudio.ai',
     hasSourceCode: false
   },
   {
     id: 2,
-    label: 'LOGISTICS MANAGEMENT',
-    title: 'EC',
-    highlight: 'turbo',
-    description: 'A complete management system designed for courier service companies based in Saudi Arabia. Manages daily operations including shipments, tracking, customer management, and internal workflows with a centralized dashboard to streamline logistics and support scalable operations.',
-    tech: ['Next.js', 'Express.js', 'MySQL', "Tap Payments"],
+    label: 'AI-POWERED TOOL',
+    title: 'CV',
+    highlight: ' Builder',
+    description: 'An AI-powered CV builder that generates professional, ready-to-use CVs in seconds. Simply enter your information, choose a template, and let the AI build a polished, job-ready CV — no design skills needed React.js · Node.js Express.js MongoDB AI Integration  Smart Templates Instant CV Export AI Powered View Project',
+    tech: ['Tailwind CSS','React.js', 'Express.js', 'MongoDB'],
     images: ['/ecturbohome.png', '/ecturboshipments.png', '/ecturbouser.png'],
-    stats: [{ label: 'Shipments', value: '50K+' }, { label: 'Customers', value: '2K+' }],
+    stats: [{ label: 'Multiple Designs', value: 'Templates' }, { label: ' Smart Suggestions', value: ' AI Power' }],
     website: "https://ecturbo.com/",
     hasSourceCode: false
   },
   {
     id: 3,
-    label: 'B2B ECOMMERCE',
-    title: 'Tradx',
-    highlight: 'sell',
-    description: 'A full-featured B2B eCommerce platform built to support wholesale and bulk trading businesses. Enables businesses to list products, manage bulk orders, handle pricing for different buyers, and facilitate smooth transactions between suppliers and buyers.',
-    tech: ['React.js', 'Node.js', 'PostgreSQL', 'Stripe'],
+    label: 'SOCIAL MEDIA APP',
+    title: 'Smart',
+    highlight: ' Social Media App',
+    description: 'A modern React-based social media platform where users can share images, like and comment on posts, follow others, and manage their personal profile — a smooth and interactive social experience built for real users React.js  Node.js Express.js MongoDB Image Sharing Likes & Comments Profile Management View Project.',
+    tech: ['Tailwind CSS ','React.js','Express js', 'Node.js', 'MonogDB', ],
     images: ['/tradxsellhome.jpeg', '/tradxlogin.jpeg', '/tradxproducts.jpeg'],
-    stats: [{ label: 'Products', value: '15K+' }, { label: 'Orders', value: '25K+' }],
+    stats: [{ label: 'Image Sharing', value: 'Social' }, { label: 'Likes & Comments', value: 'Interactive' }],
     // website: 'http://tradxsell.com/',
     hasSourceCode: false
   },
   {
     id: 4,
-    label: 'GAMING PLATFORM',
-    title: 'Xeph',
-    highlight: 'ra',
-    description: 'A dedicated platform for hosting and managing gaming events in Pakistan. Allows organizers to create tournaments while players can participate, compete, and track performance through dynamic scoreboards. Maintains player rankings based on tournaments played.',
-    tech: ['React', 'Node.js', 'MongoDB', 'Socket.io', 'AWS'],
+    label: 'Student Certificate Generator',
+    title: 'Ed',
+    highlight: 'Tech',
+    description: 'A smart web platform that allows schools, colleges, and academies to automatically generate professional certificates for their students. Enter student details, select a certificate design, and download a print-ready certificate instantly React.js · Node.js · Express.js MongoDB  Auto Certificate For Institutions Instant PDF Download View Project.',
+    tech: ['React', 'Node.js', 'MongoDB', 'Express js', 'MYSQL Database'],
     images: ['/xephrahome.jpeg', '/xephralogin.png', '/xephradashboard.png'],
-    stats: [{ label: 'Tournaments', value: '100+' }, { label: 'Players', value: '5K+' }],
+    stats: [{ label: 'For Institutions', value: 'EdTech' }, { label: ' Instant PDF Export', value: 'Automated' }],
     hasSourceCode: false
   }
 ]
@@ -107,7 +107,7 @@ export default function Projects() {
         <span className="projects-label">PORTFOLIO</span>
         <h2 className="projects-heading">Featured <span className="highlight">Projects</span></h2>
         <p className="projects-subtitle">
-        From AI-powered platforms to B2B solutions and gaming ecosystems
+        Real-world web applications I built — from management systems to AI-powered tools and social platforms.
         </p>
       </div>
 

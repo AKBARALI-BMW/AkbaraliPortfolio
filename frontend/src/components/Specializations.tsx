@@ -5,17 +5,17 @@ interface SpecializationsProps {
 }
 
 const stats = [
-  { number: '25+', label: 'Completed', sublabel: 'Projects' },
-  { number: '3+', label: 'Years in', sublabel: 'Development' },
-  { number: '11+', label: 'Clients', sublabel: 'Worldwide' },
+  { number: '7+', label: 'Completed', sublabel: 'Projects' },
+  { number: '1+', label: 'Years in', sublabel: 'Development' },
+  { number: '6+', label: 'Clients', sublabel: 'Worldwide' },
   { number: '37K+', label: 'Users on My', sublabel: 'Platforms' },
 ]
 
 const socialLinks = [
-  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/wajid-ali-khan-364bb9220/' },
-  { name: 'GitHub', href: 'https://github.com/wajidweb' },
-  { name: 'Instagram', href: 'https://www.instagram.com/wajid_ali_khan04/' },
-  { name: 'Twitter (X)', href: 'https://x.com/WajidAl42111' },  
+  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/akbar-ali-007855372/' },
+  { name: 'GitHub', href: 'https://github.com/AKBARALI-BMW' },
+  { name: 'Instagram', href: 'https://www.instagram.com/akbar_ali' },
+  { name: 'Twitter (X)', href: 'https://x.com/AkbarAli' },  
 ]
 
 export default function Specializations({ isLoaded = false }: SpecializationsProps) {
@@ -24,7 +24,7 @@ export default function Specializations({ isLoaded = false }: SpecializationsPro
       <div className="spec-container">
         {/* Left Content */}
         <div className="spec-content">
-          <span className="spec-label">&lt;3+ Year Experience&gt;</span>
+          <span className="spec-label">&lt;1+ Year Experience&gt;</span>
           
           <h2 className="spec-heading">
           Building Web
@@ -48,7 +48,10 @@ export default function Specializations({ isLoaded = false }: SpecializationsPro
           <div className="spec-about">
             <span className="about-label">&lt;About&gt;</span>
             <p className="about-text">
-            I'm a full-stack developer comfortable anywhere in the stack whether I'm optimizing database queries or tweaking a button's hover effect. I love making complicated things feel simple. That moment when everything just clicks? That's the work I live for.
+            I'm a full stack developer from Swat, now based in Peshawar. I completed my Bachelor's degree in Computer Science from the University of Engineering & Technology, Mardan in 2025, where I specialized in web development.
+            To sharpen my practical skills, I completed a professional web development course at Quantum Learn Academy, Peshawar in 2024 — where I worked on real projects and gained hands-on experience with modern tools and frameworks.
+            
+            I enjoy building things that are fast, useful, and easy to use. Whether it's a shop management system, an AI-powered CV builder, or a social media app — I focus on writing clean code that solves real problems.
             </p>
           </div>
           
@@ -134,17 +137,17 @@ export default function Specializations({ isLoaded = false }: SpecializationsPro
               <div className="phone-notch"></div>
               <div className="phone-screen">
                 <div className="phone-content">
-                  <span className="phone-logo">// Wajid Ali Khan</span>
+                  <span className="phone-logo">// Akbar Ali </span>
                   <div className="phone-hero">
                     <img 
-                      src="/wajid.png" 
-                      alt="Wajid Ali Khan - Building high-performance scalable websites" 
+                      src="/Akbarali.png" 
+                      alt="Akbar Ali - Building high-performance scalable websites" 
                       className="phone-person"
                       loading="lazy"
                     />
                   </div>
                   <div className="phone-text">
-                    <span className="phone-exp">&lt;3+ Year Experience&gt;</span>
+                    <span className="phone-exp">&lt;1+ Year Experience&gt;</span>
                     <h3>FULL STACK DEVELOPER</h3>
                   </div>
                 </div>
