@@ -49,7 +49,7 @@ const projects: Project[] = [
     tech: ['Tailwind CSS ','React.js','Express js', 'Node.js', 'MonogDB', ],
     images: ['/quizseting.png', '/quizlogin.png', '/quizStart.png'],
     stats: [{ label: 'Quiz Creation', value: 'Interactive' }, { label: 'Performance Tracking', value: 'Analytics' }],
-    // website: 'https://www.quizalize.com/en-us',
+    website: 'https://www.quizalize.com/en-us',
     hasSourceCode: false
   },
   {
@@ -61,6 +61,7 @@ const projects: Project[] = [
     tech: ['React', 'Node.js', 'MongoDB', 'Express js', 'MYSQL Database'],
     images: ['/Constructionlandinpage.png', '/Constructionside.png', '/ConstructionTeam.png'],
     stats: [{ label: 'Client Project', value: 'Live' }, { label: ' Fully Responsive', value: 'Web' }],
+    website: 'https://www.clarkconstruction.com/',
     hasSourceCode: false
   }
 ]
