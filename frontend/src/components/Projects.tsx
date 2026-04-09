@@ -37,7 +37,7 @@ const projects: Project[] = [
     tech: ['Tailwind CSS','React.js', 'Express.js', 'MongoDB'],
     images: ['/CVbuilderpage.png', '/CVdashobard.png', '/CVuserdashboard.png'],
     stats: [{ label: 'Multiple Designs', value: 'Templates' }, { label: ' Smart Suggestions', value: ' AI Power' }],
-    website: "https://build-my-cv-dusky.vercel.app/",
+    website: "https://build-my-cv-a27u.vercel.app/",
     hasSourceCode: false
   },
   {
