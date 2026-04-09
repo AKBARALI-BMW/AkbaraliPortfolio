@@ -91,7 +91,7 @@ export default function Contact() {
         <div className="contact-form-wrapper">
           <form 
             className="contact-form" 
-            action="https://formsubmit.co/mrwajidalikhan42111@gmail.com" 
+            action="https://formsubmit.co/akbaraliuetm136@gmail.com" 
             method="POST"
           >
             {/* FormSubmit Configuration */}
