@@ -42,7 +42,7 @@ export default function Contact() {
   const openCalendly = () => {
     if (window.Calendly) {
       window.Calendly.initPopupWidget({
-        url: 'https://calendly.com/akbaraliuetm/30min?hide_gdpr_banner=1'
+        url: 'https://calendly.com/akbaraliuetm136/30min?hide_gdpr_banner=1'
       })
     }
   }
