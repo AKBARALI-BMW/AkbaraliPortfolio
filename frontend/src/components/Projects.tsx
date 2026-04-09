@@ -25,7 +25,7 @@ const projects: Project[] = [
     tech: [ 'Tailwind CSS','React.js', "Express.js", 'MongoDB', "Multer Cloud"],
     images: ['/Shopdashboard.png', '/Shopcustomer.png', '/Shopslip.png'],
     stats: [{ label: 'Active Project', value: 'Current' }, { label: 'Frontend + Backend', value: 'Full Stack' }],
-    website: 'https://funnelstudio.ai',
+    website: 'https://material-shop-management-system-mat.vercel.app/',
     hasSourceCode: false
   },
   {
@@ -37,7 +37,7 @@ const projects: Project[] = [
     tech: ['Tailwind CSS','React.js', 'Express.js', 'MongoDB'],
     images: ['/CVbuilderpage.png', '/CVdashobard.png', '/CVuserdashboard.png'],
     stats: [{ label: 'Multiple Designs', value: 'Templates' }, { label: ' Smart Suggestions', value: ' AI Power' }],
-    website: "https://ecturbo.com/",
+    website: "https://build-my-cv-dusky.vercel.app/",
     hasSourceCode: false
   },
   {
@@ -47,9 +47,9 @@ const projects: Project[] = [
     highlight: ' Quiz App',
     description: 'A fully interactive online quiz platform where students can register, log in, and attempt quizzes at any time. Each quiz runs with a live countdown timer to keep students focused, and a detailed result summary is displayed immediately after submission. React.js · Node.js · Express.js · MongoDB Student Login  Live Timer Instant Results View Project',
     tech: ['Tailwind CSS ','React.js','Express js', 'Node.js', 'MonogDB', ],
-    images: ['/quizloginpage.png', '/quizquestion.png', '/result.png'],
+    images: ['/quizseting.png', '/quizlogin.png', '/quizStart.png'],
     stats: [{ label: 'Quiz Creation', value: 'Interactive' }, { label: 'Performance Tracking', value: 'Analytics' }],
-    // website: 'http://tradxsell.com/',
+    // website: 'https://www.quizalize.com/en-us',
     hasSourceCode: false
   },
   {
