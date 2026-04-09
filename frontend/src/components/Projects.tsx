@@ -45,9 +45,9 @@ const projects: Project[] = [
     label: 'ONLINE QUIZ PLATFORM',
     title: 'Online ',
     highlight: ' Quiz App',
-    description: 'A fully interactive online quiz platform where students can register, log in, and attempt quizzes at any time. Each quiz runs with a live countdown timer to keep students focused, and a detailed result summary is displayed immediately after submission. React.js · Node.js · Express.js · MongoDB Student Login  Live Timer Instant Results View Project',
+    description: 'A fully interactive online quiz platform inspired by Quizalize, built with a modern MERN stack. The system allows students to register, log in, and attempt quizzes anytime with a seamless user experience. Each quiz includes a real-time countdown timer to maintain focus and accuracy. Upon submission, users receive instant results with detailed performance insights. The platform features a responsive React.js frontend and a robust Node.js & Express.js backend with MongoDB for efficient data management.',
     tech: ['Tailwind CSS ','React.js','Express js', 'Node.js', 'MonogDB', ],
-    images: ['/quizseting.png', '/quizlogin.png', '/quizStart.png'],
+    images: ['/quizsetting.png', '/quizlogin.png', '/quizeStart.png'],
     stats: [{ label: 'Quiz Creation', value: 'Interactive' }, { label: 'Performance Tracking', value: 'Analytics' }],
     website: 'https://www.quizalize.com/en-us',
     hasSourceCode: false
