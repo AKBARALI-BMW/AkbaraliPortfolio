@@ -74,7 +74,7 @@ export default function Footer() {
         {/* Right - Image (showing left side of person) */}
         <div className="footer-image-wrapper">
           <img 
-            src="/frontend/public/Akbarali.png" 
+            src="/Akbaralisame.png" 
             alt="Akbar Ali - Full Stack Developer available for freelance projects and collaborations" 
             className="footer-image"
             style={{borderRadius: '15px'}}
